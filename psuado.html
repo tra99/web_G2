@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuado Class & Element</title>
+    <style>
+        #btn:hover{
+            background-color: pink;
+            color: white;
+            font-weight: 900;
+            border: none;
+            padding: 30px 70px;
+            border-radius: 28px;
+            font-size: 28px;
+            transition: ease-in-out 2s;
+        }
+        #btn{
+            background-color: blue;
+            color: white;
+            font-weight: 700;
+            border: none;
+            padding: 20px 50px;
+            border-radius: 28px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        a:active{
+            color: red;
+        }
+        a:visited{
+            color: green;
+        }
+        li::before {
+            content: "🫐";
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to CADT Web Frontend Course</h1>
+    <pre>
+        I've made mistakes
+        I could have treated you better
+        I let you get away
+        There goes my happily ever after
+        Tell me why, why can't we try and start again?
+        This can't be how our story ends
+        You're more than my girl, you're my best friend
+        Tell me you remember when
+        Oooh, I was your man and you were my girl
+        It was you and me against the world
+        Baby, ain't nobody gonna love me like the way you do
+        And you ain't never gonna find a love like mine
+        Tell me what can I do to make it up to you?
+        'Cause what we got's too good to say goodbye, goodbye
+    </pre>
+
+    <h2>Coffee Cup</h2>
+    <ol>
+        <li>Expresso</li>
+        <li>Ice Americano</li>
+        <li>Ice Latte</li>
+        <li>Matcha Latte</li>
+        <li>Ice lemon Tea</li>
+    </ol>
+    <p><a href="https://www.youtube.com/">Click to route to my Youtube channel</a></p>
+    <button id="btn">Click Me</button>
+</body>
+</html>
